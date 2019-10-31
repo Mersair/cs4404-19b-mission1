@@ -27,7 +27,7 @@ public class Client {
     public static void main(String[] args) {
         System.out.println("Client run");
         Client c = new Client();
-        c.startConnection("173.133.130.63", 5000);   // !!! which IP address to connect to?
+        c.startConnection("127.0.0.1", 5000);   // !!! which IP address to connect to?
     }
 
 }
